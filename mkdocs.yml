@@ -1,34 +1,52 @@
 site_name: KelvinJoson.com
-site_url: https://kelvinjoson.com
+site_url: https://kelvinjoson.com/
 repo_url: https://github.com/KelvinJoson/kelvinjoson
 repo_name: KelvinJoson/kelvinjoson
 site_author: Kelvin Joson
 copyright: Copyright &copy; 2022 Kelvin Joson
+
 theme:
-  font: false
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
   name: material
+  custom_dir: overrides
   icon:
     logo: material/library
     repo: fontawesome/brands/github
-    edit: material/file-document-edit
+    edit: material/file-edit-outline
   features:
+    - navigation.tabs
+    #- header.autohide
+    #- announce.dismiss
     - navigation.instant
     - navigation.tracking
     - navigation.top
+    - navigation.expand
+    - search.share
+    - search.suggest
+    #- navigation.indexes
+    #- navigation.sections
+    - toc.follow
     - toc.integrate
 
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: blue grey
+      accent: deep orange
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to Dark Mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: blue grey
+      accent: deep orange
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to Light Mode
 
 extra:
@@ -43,10 +61,9 @@ extra:
   consent:
     title: Cookie consent
     description: >-
-      I use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of my home page and whether vistors
-      find what they're searching for. With your consent, you're helping me to
-      make this site better.
+      In order to monitor how well my home page is doing and whether visitors find what they are searching for, 
+      I use cookies to keep track of your preferences and repeat visits. 
+      With your consent, you are assisting in improving this website.
 markdown_extensions:
   - admonition
   - nl2br
@@ -56,6 +73,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
