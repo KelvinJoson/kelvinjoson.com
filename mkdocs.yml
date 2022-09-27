@@ -1,7 +1,7 @@
 site_name: KelvinJoson.com
 site_url: https://kelvinjoson.com/
-repo_url: https://github.com/KelvinJoson/kelvinjoson
-repo_name: KelvinJoson/kelvinjoson
+# repo_url: https://github.com/KelvinJoson/kelvinjoson
+# repo_name: KelvinJoson/kelvinjoson
 site_author: Kelvin Joson
 copyright: Copyright &copy; 2022 Kelvin Joson
 
@@ -13,17 +13,18 @@ theme:
   name: material
   custom_dir: overrides
   icon:
-    logo: material/library
+    logo: material/home-circle #jeepney #material/library
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
   features:
     - navigation.tabs
-    #- header.autohide
+    #- navigation.tabs.sticky
+    - header.autohide
     #- announce.dismiss
     - navigation.instant
     - navigation.tracking
     - navigation.top
-    - navigation.expand
+    #- navigation.expand
     - search.share
     - search.suggest
     #- navigation.indexes
@@ -38,7 +39,7 @@ theme:
       primary: blue grey
       accent: deep orange
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-5
         name: Switch to Dark Mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -46,15 +47,18 @@ theme:
       primary: blue grey
       accent: deep orange
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Switch to Light Mode
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/KelvinJoson
+    - icon: fontawesome/solid/envelope
+      link: mailto:kelvin@kelvinjoson.com
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/kelvinjoson/
+    - icon: fontawesome/brands/github
+      link: https://github.com/KelvinJoson
+
   analytics:
     provider: google
     property: G-6P3SJ6MH9Y
@@ -99,7 +103,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: false
       type: timeago
-
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
