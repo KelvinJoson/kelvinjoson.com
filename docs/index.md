@@ -1,6 +1,4 @@
-# Home 
----
-## About
+# About Me 
 ---
 ![KelvinJoson](images/kelvinjoson_profile_small.png)
 
