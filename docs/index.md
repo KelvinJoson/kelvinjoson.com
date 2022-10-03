@@ -1,3 +1,8 @@
+---
+title: About Me
+description: I am excited to welcome you to my personal website.
+---
+
 # About Me 
 ---
 ![KelvinJoson](images/kelvinjoson_profile_small.png)
