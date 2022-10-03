@@ -6,9 +6,11 @@ description: Certified SAFe® 5 Practitioner/PO/PM. ICT Business Analyst. Electr
 # About Me 
 ---
 ![KelvinJoson](images/kelvinjoson_profile_small.png)
-> I am excited to welcome you to my personal website. Please feel free to connect with me by clicking the link in the banner or contact me at <kelvin@kelvinjoson.com>. I look forward to hearing from you!
+> I am excited to welcome you to my personal website. I look forward to hearing from you!
 
 \- Kelvin Joson
+
+[Send :fontawesome-solid-paper-plane:](mailto://kelvin@kelvinjoson.com){ .md-button} [Connect with me on :fontawesome-brands-linkedin:](https://www.linkedin.com/in/kelvinjoson/){ .md-button} [Github :fontawesome-brands-github:](https://github.com/KelvinJoson){ .md-button}
 
 ---
 ## Career Summary
