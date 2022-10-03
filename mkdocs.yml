@@ -1,4 +1,4 @@
-site_name: KelvinJoson.com
+site_name: KELVINJOSON.COM
 site_url: https://kelvinjoson.com/
 repo_url: https://github.com/KelvinJoson/kelvinjoson
 repo_name: KelvinJoson/kelvinjoson
@@ -6,14 +6,13 @@ site_author: Kelvin Joson
 copyright: Copyright &copy; 2022 Kelvin Joson
 
 theme:
-  language: en
   font:
     text: Roboto
     code: Roboto Mono
   name: material
   custom_dir: overrides
   icon:
-    logo: material/home-circle #jeepney #material/library
+    logo: material/alpha-k-box
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
   features:
@@ -103,10 +102,10 @@ plugins:
   - search
   - callouts
   - roamlinks
+  - social
   - git-revision-date-localized:
       enable_creation_date: false
       type: timeago
-  - social
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

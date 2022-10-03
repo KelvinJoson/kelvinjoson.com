@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: I am excited to welcome you to my personal website.
+description: Certified SAFe® 5 Practitioner/PO/PM. ICT Business Analyst. Electronics Engineer. Manufacturing Applications Consultant.
 ---
 
 # About Me 
