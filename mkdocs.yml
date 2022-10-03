@@ -16,6 +16,7 @@ theme:
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
   features:
+    - announce.dismiss
     - navigation.tabs
     #- navigation.tabs.sticky
     - header.autohide

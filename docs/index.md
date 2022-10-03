@@ -10,7 +10,7 @@ description: Certified SAFe® 5 Practitioner/PO/PM. ICT Business Analyst. Electr
 
 \- Kelvin Joson
 
-[Send :fontawesome-solid-paper-plane:](mailto://kelvin@kelvinjoson.com){ .md-button} [Connect with me on :fontawesome-brands-linkedin:](https://www.linkedin.com/in/kelvinjoson/){ .md-button} [Github :fontawesome-brands-github:](https://github.com/KelvinJoson){ .md-button}
+[Email :fontawesome-solid-paper-plane:](mailto://kelvin@kelvinjoson.com){ .md-button} [LinkedIn :fontawesome-brands-linkedin:](https://www.linkedin.com/in/kelvinjoson/){ .md-button} [Github :fontawesome-brands-github:](https://github.com/KelvinJoson){ .md-button}
 
 ---
 ## Career Summary
