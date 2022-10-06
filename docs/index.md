@@ -1,6 +1,8 @@
 ---
-title: About Me
+#title: About Me
 description: Certified SAFe® 5 Practitioner/PO/PM. ICT Business Analyst. Electronics Engineer. Manufacturing Applications Consultant.
+page_path: images/
+og_image: kelvinjoson_profile.png
 ---
 
 # About Me

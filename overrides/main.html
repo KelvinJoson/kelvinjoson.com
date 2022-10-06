@@ -10,3 +10,15 @@
     <strong>LinkedIn</strong>
 </a>
 {% endblock %}
+
+{% block extrahead %}
+{% if page and page.meta and page.meta.page_path and page.meta.og_image %}
+<meta property="og:image:url" content="{{ config.site_url ~ page.meta.page_path ~ page.meta.og_image }}" />
+{% elif page and page.meta and page.meta.og_image %}
+<meta property="og:image:url" content="{{ page.meta.og_image }}" />
+{% else %}
+<meta property="og:image:url" content="{{ config.site_url ~ config.theme.favicon }}" />
+{% endif %}
+
+<meta property="fb:app_id" content="{{ config.extra.analytics.fb_appid }}" />
+{% endblock %}

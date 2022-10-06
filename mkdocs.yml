@@ -63,6 +63,7 @@ extra:
   analytics:
     provider: google
     property: G-6P3SJ6MH9Y
+    fb_appid: XXX
   consent:
     title: Cookie consent
     description: >-
