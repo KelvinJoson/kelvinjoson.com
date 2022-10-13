@@ -21,7 +21,6 @@ theme:
     #- navigation.tabs.sticky
     - header.autohide
     - content.tabs.link
-    #- announce.dismiss
     - navigation.instant
     - navigation.tracking
     - navigation.top
