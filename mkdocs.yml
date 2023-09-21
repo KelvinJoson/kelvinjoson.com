@@ -1,9 +1,9 @@
 site_name: KELVINJOSON.COM
 site_url: https://kelvinjoson.com/
-repo_url: https://github.com/KelvinJoson/kelvinjoson
-repo_name: KelvinJoson/kelvinjoson
+repo_url: https://github.com/KelvinJoson/kelvinjoson.com
+repo_name: KelvinJoson/kelvinjoson.com
 site_author: Kelvin Joson
-copyright: Copyright &copy; 2023 Kelvin Joson
+copyright: Copyright &copy; 2022-2023 Kelvin Joson
 
 theme:
   font:
