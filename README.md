@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![CI](https://github.com/KelvinJoson/kelvinjoson/actions/workflows/CI.yml/badge.svg)
+![CI](https://github.com/KelvinJoson/kelvinjoson.com/actions/workflows/CI.yml/badge.svg)
