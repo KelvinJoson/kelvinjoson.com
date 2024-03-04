@@ -1,7 +1,7 @@
 site_name: KELVINJOSON.COM
 site_url: https://kelvinjoson.com/
-repo_url: https://github.com/KelvinJoson/kelvinjoson.com
-repo_name: KelvinJoson/kelvinjoson.com
+#repo_url: https://github.com/KelvinJoson/kelvinjoson.com
+#repo_name: KelvinJoson/kelvinjoson.com
 site_author: Kelvin Joson
 copyright: Copyright &copy; 2024 Kelvin Joson
 
@@ -80,8 +80,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.tasklist:
