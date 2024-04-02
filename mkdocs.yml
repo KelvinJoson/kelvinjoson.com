@@ -3,7 +3,9 @@ site_url: https://kelvinjoson.com/
 #repo_url: https://github.com/KelvinJoson/kelvinjoson.com
 #repo_name: KelvinJoson/kelvinjoson.com
 site_author: Kelvin Joson
-copyright: Copyright &copy; 2024 Kelvin Joson
+copyright: >
+  Copyright &copy; 2024 Kelvin Joson
+  <a href="#__consent">Change cookie settings</a>
 
 theme:
   font:
@@ -103,7 +105,7 @@ plugins:
   - search
   - callouts
   - roamlinks
-  - social
+  #- social
   - git-revision-date-localized:
       enable_creation_date: false
       type: timeago
