@@ -1,0 +1,12 @@
+:root {
+  --md-primary-fg-color:            #8ca3b3f3;       /* Metallic Slate Blue */
+  --md-primary-fg-color--light:     #b3c2cc;       /* Light Metallic Steel Blue */
+  --md-primary-fg-color--dark:      #5f6a75;       /* Metallic Gunmetal */
+  --md-primary-bg-color:            #ededf0;       /* Soft Metallic Gray */
+  --md-primary-bg-color--light:     #ffffff;       /* Pure White */
+
+  --md-accent-fg-color:             #b89c6d;       /* Metallic Bronze */
+  --md-accent-fg-color--transparent:#b89c6db3;    /* Semi-transparent Metallic Bronze */
+  --md-accent-bg-color:             #d9d2c3;       /* Metallic Beige */
+  --md-accent-bg-color--light:      #f2f1ed;       /* Very Light Metallic Beige */
+}

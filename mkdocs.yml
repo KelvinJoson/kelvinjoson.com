@@ -4,13 +4,14 @@ site_url: https://kelvinjoson.com/
 #repo_name: KelvinJoson/kelvinjoson.com
 site_author: Kelvin Joson
 copyright: >
-  Copyright &copy; 2024 Kelvin Joson
+  Copyright &copy; 2022-2025 Kelvin Joson
+  </br>
   <a href="#__consent">Change cookie settings</a>
 
 theme:
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
   name: material
   custom_dir: overrides
   icon:
@@ -23,31 +24,38 @@ theme:
     #- navigation.tabs.sticky
     - header.autohide
     - content.tabs.link
+    - content.tooltips
+    - content.code.annotate
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
     - navigation.instant
     - navigation.tracking
     - navigation.top
+    - navigation.prune
     #- navigation.expand
     - search.share
     - search.suggest
-    #- navigation.indexes
+    - navigation.indexes
     #- navigation.sections
     - toc.follow
     - toc.integrate
+    - navigation.footer
 
   palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: blue grey
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-5
         name: Switch to Dark Mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to Light Mode
@@ -60,11 +68,12 @@ extra:
       link: https://www.linkedin.com/in/kelvinjoson/
     - icon: fontawesome/brands/github
       link: https://github.com/KelvinJoson
+    - icon: fontawesome/solid/earth-asia
+      link: https://kelvinjoson.com
 
   analytics:
     provider: google
     property: G-6P3SJ6MH9Y
-    fb_appid: 606422771212242
   consent:
     title: Cookie consent
     description: >-
@@ -73,7 +82,6 @@ extra:
       With your consent, you are assisting in improving this website.
 markdown_extensions:
   - admonition
-  - nl2br
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -113,3 +121,10 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+#nav:
+#  - Home: index.md
+#  - Projects:
+#    - projects/index.md
+#    - Project 1: projects/project_1.md
