@@ -4,16 +4,18 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs-material = "*"
-mkdocs = "*"
 mkdocs-roamlinks-plugin = "*"
 mkdocs-exclude = "*"
 mkdocs-git-revision-date-localized-plugin = "*"
 mkdocs-callouts = "*"
 pillow = "*"
 cairosvg = "*"
+pymdown-extensions = "*"
+mkdocs-pymdownx-material-extras = "*"
+mkdocs-markdownextradata-plugin = "*"
+mkdocs-material = {extras = ["imaging"], version = "*"}
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.12"
