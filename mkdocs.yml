@@ -113,7 +113,10 @@ plugins:
   - search
   - callouts
   - roamlinks
-  #- social
+  - social:
+      enabled: !ENV [CI, false]
+      cards_layout_options:
+        font_family: IBM Plex Sans
   - git-revision-date-localized:
       enable_creation_date: false
       type: timeago
